@@ -4,7 +4,7 @@ import com.marlonmachado.desafio_injecao_dependencia.entities.Order;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ShipingService {
+public class ShippingService {
 
    public double shipment(Order order) {
        if (order.getBasic() < 100) {

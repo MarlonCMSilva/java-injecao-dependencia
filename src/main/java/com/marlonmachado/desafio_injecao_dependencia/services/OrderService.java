@@ -8,12 +8,12 @@ import org.springframework.stereotype.Service;
 public class OrderService {
 
     @Autowired
-    private ShipingService shipingService;
+    private ShippingService shippingService;
 
     public double total(Order order){
         double valorComDesconto;
 
         valorComDesconto =  order.getBasic() - (order.getBasic() * order.getDiscount());
-        return valorComDesconto + shipingService.shipment(order);
+        return valorComDesconto + shippingService.shipment(order);
     }
 }

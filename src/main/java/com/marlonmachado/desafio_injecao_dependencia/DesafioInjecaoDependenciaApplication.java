@@ -2,7 +2,6 @@ package com.marlonmachado.desafio_injecao_dependencia;
 
 import com.marlonmachado.desafio_injecao_dependencia.entities.Order;
 import com.marlonmachado.desafio_injecao_dependencia.services.OrderService;
-import com.marlonmachado.desafio_injecao_dependencia.services.ShipingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
